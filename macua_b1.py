@@ -9,3 +9,5 @@ df = pd.read_csv('Exam_Table.csv', na_values='*')
     print (df)
 #create a new file
 df.to_csv('b_output1.csv', index=False)
+#Source:
+https://justinbois.github.io/bootcamp/2021/lessons/l18_split_apply_combine.html
