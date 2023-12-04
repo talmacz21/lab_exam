@@ -5,7 +5,9 @@ import csv
 #Column titles in your .CSV file
 col_list = ["Interval"]
 df = pd.read_csv('Exam_Table.csv', na_values='*')
-  print (Interval:', ['Interval'], 30-0]')
-    print (df)
+    grouped = df.groupby('Genus')
+        grouped [str(St)]
+  print (Genus:', np.mean[df['Genus'], St]')
+     print (df)
 #create a new file
-df.to_csv('b_output1.csv', index=False)
+df.to_csv('b_output2.csv', index=False)
